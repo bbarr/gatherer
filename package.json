@@ -1,0 +1,27 @@
+{
+  "name": "gatherer",
+  "version": "0.0.0",
+  "description": "A library for gathering and real-time consolidation of scattered data",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "grunt spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bbarr/gatherer.git"
+  },
+  "author": "Brendan Barr",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "4e063a99ec353a133496b9c4e0996c8e49a28ffe",
+  "dependencies": {
+    "lodash": "~2.2.1",
+    "rsvp": "~2.0.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "mocha": "~1.13.0",
+    "sinon": "~1.7.3",
+    "expect.js": "~0.2.0"
+  }
+}
